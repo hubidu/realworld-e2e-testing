@@ -41,8 +41,9 @@ test('As an insured person I would like to add an insurance contract to my Versi
          * Need to close a modal dialog here
          * and using a webdriverio method to click on the close icon
          */
-        await I.waitForVisible('.dialog-box-close')
-        await I.browser.leftClick('.dialog-box-close')
+        // await I.waitForVisible('.dialog-box-close')
+        // await I.browser.leftClick('.dialog-box-close')
+        await I.click('#c24-dialog-points-modal > div > header > button')
 
         // Goto Vesicherungscenter
         await I.click('.optimization-container') // codeceptjs always clicks the first of multiple elements
