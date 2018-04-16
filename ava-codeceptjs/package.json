@@ -1,0 +1,17 @@
+{
+  "name": "realworld-ava-codeceptjs",
+  "version": "1.0.0",
+  "description": "Realworld E2E tests with ava-codeceptjs",
+  "main": "index.js",
+  "dependencies": {
+    "ava-codeceptjs": "^2.13.4"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC"
+}

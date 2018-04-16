@@ -1,0 +1,15 @@
+{
+  "name": "realworld-e2e-cypress",
+  "version": "1.0.0",
+  "description": "Realworld E2E tests with cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC"
+}
